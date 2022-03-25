@@ -138,7 +138,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
                try {
-                    URL url = new URL("https://raw.githubusercontent.com/mobilesiri/JSON-Parsing-in-Android/master/index.html");
+                    URL url = new URL("https://raw.githubusercontent.com/HarshitDhawan/JSON-Practice-Android/main/index.html");
                     HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
                     InputStream inputStream = httpURLConnection.getInputStream();
                     BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
